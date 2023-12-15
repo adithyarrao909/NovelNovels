@@ -28,10 +28,9 @@ if __name__ == "__main__":
             print("Invalid input! Try again")
 
     genre_user_input = input("What genre are you feeling? (try to be accurate with spelling): ")
+    # user_input = input("Include any other keywords/descriptions of the movie you want separated by a space: ")
 
-    user_input = input("Include any other keywords/descriptions of the movie you want separated by a space: ")
-
-    books = API.get_open_library_books(user_input + genre_user_input)
+    books = API.get_open_library_books(genre_user_input)
 
     if books:
         top_rated_books = sorted([book for book in books if "ratings_average" in book], key=lambda x: x.get("ratings_average", 0), reverse=True)[:100]

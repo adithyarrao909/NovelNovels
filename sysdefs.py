@@ -1,5 +1,5 @@
 # sysdefs.py - Define constants or system-wide configurations
 
-# Goodreads API key
-GOODREADS_API_KEY = "YOUR_GOODREADS_API_KEY"
 TOP_RATED = "10"
+# GoogleBooks API key
+GBOOKS_API_KEY = "AIzaSyAoqVPohqCXnWYcRGhe2sA_Ygyd4JPS1So"
