@@ -4,10 +4,20 @@ With the immense popularity of reading as a hobby and the countless books availa
 
 API data from Open Books is parsed and stored to form a smaller internal database upon which the NLP (natural language processing) \
 is used to find similarities between the API data and the user input. This allows a semi-ambiguous query like "cat lasagna" to produce
-results like "Garfield Fat Cat 3-Pack volume 1".
+results like "Garfield Fat Cat 3-Pack volume 1". The most relevant data is collected from the API and cached immediately. The data is used on the fly as the user requests certain data.
 
-The most relevant data collected from the API is stored in a datastructure
+Used a free open-source library for Natural Language Processing called Spacy (first-time). 
+Utilized en_core_web_md which is an English pipeline optimized for CPU.
+The recommendation algorithm takes in the API response dataand filters in stages:
+    1) Popularity filtering is toggled if users prefer popular books, and as such is 
+       sorted by popularity by measuring the total number of reader reviews. If it is not toggled,
+       The data is left as is.
+    2) Next, it is sorted by avg rating.
+    3) Lastly, the NLP is given characteristics like the author_name, subject_key(series of words desecribing the book), and subject_facet(even more words describing the book).
+        3.1) A similarity rating to the user input is attributed to each book and they are sorted.
+    4) Finally, the most suitable book is determined and highlighted in the GUI.
 
+The user interface has an interactive and error-resistant design. It asks only the necessary questions, giving the used a very smooth experience. An example run can be seen at the bottom of this readme.
 
 Files:
     - API.py - Handle API requests and data retrieval
@@ -21,10 +31,9 @@ Packages include:
     - requests (api handling)
     - colorama (terminal formatting)
 
-
-
-
-
+APIs used:
+    - Open Library (https://openlibrary.org/dev/docs/api/search)
+    - Google Books API (first-time, in development)
 
 
 Example run:
