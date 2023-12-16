@@ -82,6 +82,7 @@ def ui(top_rated_books, most_similar_rated_books):
     while user_choice.lower() != 'exit':
         try:
             user_choice = int(user_choice)
+            # Allow the user to browse the top 5 selected books
             if(0 < int(user_choice) <= 5):
                 book = most_similar_rated_books[user_choice - 1]
                 print(Fore.CYAN + "\nBook Information:" + Style.RESET_ALL)
