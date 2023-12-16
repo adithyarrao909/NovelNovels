@@ -2,7 +2,7 @@
 
 With the immense popularity of reading as a hobby and the countless books available to read, It has become quite difficult to narrow down your choices or to find new book recommendations. Aspiring readers often face information overload with the different niches, authors, genres, etc. giving reading a barrier to entry. Novel Novels is intended to break this barrier of entry by acting as an interface between aspiring readers and the vast book data available on the internet. The program will make book recommendations based on the user’s taste and mood.
 
-API data from Open Books is parsed and stored to form a smaller internal database upon which the NLP (natural language processing) is used to find similarities between the API data and the user input. This allows a semi-ambiguous query like "cat lasagna" to produce
+API data from Open Library is parsed and stored to form a smaller internal database upon which the NLP (natural language processing) is used to find similarities between the API data and the user input. This allows a semi-ambiguous query like "cat lasagna" to produce
 results like "Garfield Fat Cat 3-Pack volume 1". The most relevant data is collected from the API and cached immediately. The data is used on the fly as the user requests certain data.
 
 Used a free open-source library for Natural Language Processing called Spacy (first-time). 
@@ -44,7 +44,7 @@ Top 10 Rated Books:
 1. Title: Tax administration\
    Author: United States. General Accounting Office\
    Rating: 5.0
-   
+
 2. Title: The machine that changed the world\
    Author: James P. Womack\
    Rating: 5.0
