@@ -41,89 +41,90 @@ Example run:
 2) What genre are you feeling? (try to be accurate with spelling): automobiles
 
 Top 10 Rated Books:
-1. Title: Tax administration
-   Author: United States. General Accounting Office
-   Rating: 5.0
+1. Title: Tax administration\
+   Author: United States. General Accounting Office\
+   Rating: 5.0\
+
+\
+2. Title: The machine that changed the world\
+   Author: James P. Womack\
+   Rating: 5.0\
+\
+
+3. Title: Air pollution\
+   Author: United States. General Accounting Office\
+   Rating: 5.0\
+\
+
+4. Title: How to keep your Volkswagen alive\
+   Author: Muir, John\
+   Rating: 5.0\
+\
+
+5. Title: So B. It\
+   Author: Sarah Weeks\
+   Rating: 4.8333335\
+\
+
+6. Title: The One Plus One\
+   Author: Jojo Moyes, Elizabeth Bower, Ben Elliot, Steven  France, Nicola  Stanton\
+   Rating: 4.75\
 
 
-2. Title: The machine that changed the world
-   Author: James P. Womack
-   Rating: 5.0
+7. Title: Fundamentals of automobile body structure design\
+   Author: Donald E. Malen\
+   Rating: 4.6666665\
+\
 
+8. Title: Fly High, Fly Guy! (Fly Guy)\
+   Author: Tedd Arnold\
+   Rating: 4.6666665\
+\
 
-3. Title: Air pollution
-   Author: United States. General Accounting Office
-   Rating: 5.0
+9. Title: The Price of Salt\
+   Author: Patricia Highsmith\
+   Rating: 4.55\
+\
 
+10. Title: Let's go for a drive!\
+   Author: Mo Willems\
+   Rating: 4.5454545\
 
-4. Title: How to keep your Volkswagen alive
-   Author: Muir, John
-   Rating: 5.0
-
-
-5. Title: So B. It
-   Author: Sarah Weeks
-   Rating: 4.8333335
-
-
-6. Title: The One Plus One
-   Author: Jojo Moyes, Elizabeth Bower, Ben Elliot, Steven  France, Nicola  Stanton
-   Rating: 4.75
-
-
-7. Title: Fundamentals of automobile body structure design
-   Author: Donald E. Malen
-   Rating: 4.6666665
-
-
-8. Title: Fly High, Fly Guy! (Fly Guy)
-   Author: Tedd Arnold
-   Rating: 4.6666665
-
-
-9. Title: The Price of Salt
-   Author: Patricia Highsmith
-   Rating: 4.55
-
-
-10. Title: Let's go for a drive!
-   Author: Mo Willems
-   Rating: 4.5454545
-
-
+\
 
 Top 5 Most Similar and Rated Books:
-1. Title: The machine that changed the world
-   Author: James P. Womack
-   Rating: 5.0
-   Similarity Score: 0.21
+1. Title: The machine that changed the world\
+   Author: James P. Womack\
+   Rating: 5.0\
+   Similarity Score: 0.21\
+\
+2. Title: Let's go for a drive!\
+   Author: Mo Willems\
+   Rating: 4.5454545\
+   Similarity Score: 0.08\
+\
+3. Title: So B. It\
+   Author: Sarah Weeks\
+   Rating: 4.8333335\
+   Similarity Score: 0.03\
+\
+4. Title: The Price of Salt\
+   Author: Patricia Highsmith\
+   Rating: 4.55\
+   Similarity Score: -0.03\
 
-2. Title: Let's go for a drive!
-   Author: Mo Willems
-   Rating: 4.5454545
-   Similarity Score: 0.08
+5. Title: Tax administration\
+   Author: United States. General Accounting Office\
+   Rating: 5.0\
+   Similarity Score: -0.04\
 
-3. Title: So B. It
-   Author: Sarah Weeks
-   Rating: 4.8333335
-   Similarity Score: 0.03
+\
+#1 Recommended Book for you:\
+Title: The machine that changed the world\
+Author: James P. Womack\
+Rating: 5.0\
 
-4. Title: The Price of Salt
-   Author: Patricia Highsmith
-   Rating: 4.55
-   Similarity Score: -0.03
-
-5. Title: Tax administration
-   Author: United States. General Accounting Office
-   Rating: 5.0
-   Similarity Score: -0.04
-
-
-#1 Recommended Book for you:
-Title: The machine that changed the world
-Author: James P. Womack
-Rating: 5.0
-
+```text
 
              Book themes:              
 
@@ -147,3 +148,4 @@ Rating: 5.0
 | • Investigación                 |                                 |
 +---------------------------------------++---------------------------------------+
 Enter the number of the book for more info (or 'exit' to quit): 1
+```
