@@ -37,6 +37,7 @@ APIs used:
 
 Example run:
 
+```text
 1) Would you like your books to be sorted by popularity?(y/n): y
 2) What genre are you feeling? (try to be accurate with spelling): automobiles
 
@@ -113,8 +114,6 @@ Top 5 Most Similar and Rated Books:
 Title: The machine that changed the world\
 Author: James P. Womack\
 Rating: 5.0
-
-```text
 
              Book themes:              
 
